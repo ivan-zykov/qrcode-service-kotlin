@@ -1,0 +1,45 @@
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### Kotlin ###
+.kotlin
+/QRCode Service (Kotlin)/Basics unveiled/
+/QRCode Service (Kotlin)/First image/
+/QRCode Service (Kotlin)/Foolproof API/
+/QRCode Service (Kotlin)/Image parameters/
+/QRCode Service (Kotlin)/Zebra crossing/
+/QRCode Service (Kotlin)/lesson-info.yaml
+/course-info.yaml
+/course-remote-info.yaml

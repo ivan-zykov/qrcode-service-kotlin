@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RestController
 @RestController
 class QRCodeRestController {
 
-    @GetMapping(path = ["/"])
-    fun hello() = ResponseEntity("Hello World", HttpStatus.OK)
+    @GetMapping("/api/health")
+    fun apiHealth() = ResponseEntity("", HttpStatus.OK)
 }

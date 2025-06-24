@@ -10,4 +10,7 @@ class QRCodeRestController {
 
     @GetMapping("/api/health")
     fun apiHealth() = ResponseEntity("", HttpStatus.OK)
+
+    @GetMapping("/api/qrcode")
+    fun apiQRCode() = ResponseEntity("", HttpStatus.NOT_IMPLEMENTED)
 }
